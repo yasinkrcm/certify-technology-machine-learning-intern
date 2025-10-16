@@ -3,12 +3,8 @@
 <p>
   Bu depo, staj kapsamındaki görevlerin çalıştırılabilir çözümlerini ve çıktılarının üretilmesini sağlar.
   Ana çalışma dosyası <code>Compulsory_Internship_Tasks.ipynb</code> olup veriler <code>data/</code> klasöründe yer alır.
-  Aşağıdaki tüm içerik HTML olarak yazılmıştır.
   <br />
-  Not: README dosyaları GitHub ve çoğu platformda HTML'yi destekler.
-  Markdown ile birlikte HTML kullanımı yaygındır.
-  Bu dosyada yalnızca HTML kullanılmıştır.
-  
+  Not: README dosyaları GitHub ve çoğu platformda HTML'yi destekler. Markdown ile birlikte HTML kullanımı yaygındır.
 </p>
 
 <h3>Gereksinimler</h3>
@@ -66,64 +62,78 @@
 
 <h3>Çıktı Görselleri (photos/)</h3>
 <div style="display:flex; flex-direction:column; align-items:center; gap:24px; margin-top:12px;">
-  <figure style="margin:0; text-align:center;">
-    <img src="photos/iris_confusion_matrix.png" alt="Iris Karışıklık Matrisi" style="max-width:100%; width:480px; height:auto; border:1px solid #ddd; border-radius:6px;" />
-    <figcaption style="margin-top:8px; color:#666;">Iris - Karışıklık Matrisi</figcaption>
+  <figure>
+    <img src="photos/iris_confusion_matrix.png" alt="Iris Karışıklık Matrisi" style="max-width:480px; width:100%; border:1px solid #ddd; border-radius:6px;">
+    <figcaption style="color:#666;">Iris - Karışıklık Matrisi</figcaption>
   </figure>
-  <figure style="margin:0; text-align:center;">
-    <img src="photos/iris_tree.png" alt="Iris Karar Ağacı" style="max-width:100%; width:640px; height:auto; border:1px solid #ddd; border-radius:6px;" />
-    <figcaption style="margin-top:8px; color:#666;">Iris - Karar Ağacı</figcaption>
+  
+  <figure>
+    <img src="photos/iris_tree.png" alt="Iris Karar Ağacı" style="max-width:640px; width:100%; border:1px solid #ddd; border-radius:6px;">
+    <figcaption style="color:#666;">Iris - Karar Ağacı</figcaption>
   </figure>
-  <figure style="margin:0; text-align:center;">
-    <img src="photos/spam_confusion_matrix.png" alt="Spam Karışıklık Matrisi" style="max-width:100%; width:480px; height:auto; border:1px solid #ddd; border-radius:6px;" />
-    <figcaption style="margin-top:8px; color:#666;">Spam - Karışıklık Matrisi</figcaption>
+
+  <figure>
+    <img src="photos/spam_confusion_matrix.png" alt="Spam Karışıklık Matrisi" style="max-width:480px; width:100%; border:1px solid #ddd; border-radius:6px;">
+    <figcaption style="color:#666;">Spam - Karışıklık Matrisi</figcaption>
   </figure>
-  <figure style="margin:0; text-align:center;">
-    <img src="photos/titanic_confusion_matrix.png" alt="Titanic Karışıklık Matrisi" style="max-width:100%; width:480px; height:auto; border:1px solid #ddd; border-radius:6px;" />
-    <figcaption style="margin-top:8px; color:#666;">Titanic - Karışıklık Matrisi</figcaption>
+
+  <figure>
+    <img src="photos/titanic_confusion_matrix.png" alt="Titanic Karışıklık Matrisi" style="max-width:480px; width:100%; border:1px solid #ddd; border-radius:6px;">
+    <figcaption style="color:#666;">Titanic - Karışıklık Matrisi</figcaption>
   </figure>
-  <figure style="margin:0; text-align:center;">
-    <img src="photos/titanic_feature_importances.png" alt="Titanic Özellik Önemleri" style="max-width:100%; width:560px; height:auto; border:1px solid #ddd; border-radius:6px;" />
-    <figcaption style="margin-top:8px; color:#666;">Titanic - Özellik Önemleri</figcaption>
+
+  <figure>
+    <img src="photos/titanic_feature_importances.png" alt="Titanic Özellik Önemleri" style="max-width:560px; width:100%; border:1px solid #ddd; border-radius:6px;">
+    <figcaption style="color:#666;">Titanic - Özellik Önemleri</figcaption>
   </figure>
-  <figure style="margin:0; text-align:center;">
-    <img src="photos/titanic_target_distribution.png" alt="Titanic Hedef Dağılımı" style="max-width:100%; width:420px; height:auto; border:1px solid #ddd; border-radius:6px;" />
-    <figcaption style="margin-top:8px; color:#666;">Titanic - Hedef Dağılımı</figcaption>
+
+  <figure>
+    <img src="photos/titanic_target_distribution.png" alt="Titanic Hedef Dağılımı" style="max-width:420px; width:100%; border:1px solid #ddd; border-radius:6px;">
+    <figcaption style="color:#666;">Titanic - Hedef Dağılımı</figcaption>
   </figure>
-  <figure style="margin:0; text-align:center;">
-    <img src="photos/insurance_corr_heatmap.png" alt="Sigorta Korelasyon Isı Haritası" style="max-width:100%; width:560px; height:auto; border:1px solid #ddd; border-radius:6px;" />
-    <figcaption style="margin-top:8px; color:#666;">Sigorta - Korelasyon Isı Haritası</figcaption>
+
+  <figure>
+    <img src="photos/insurance_corr_heatmap.png" alt="Sigorta Korelasyon Isı Haritası" style="max-width:560px; width:100%; border:1px solid #ddd; border-radius:6px;">
+    <figcaption style="color:#666;">Sigorta - Korelasyon Isı Haritası</figcaption>
   </figure>
-  <figure style="margin:0; text-align:center;">
-    <img src="photos/insurance_actual_vs_pred_RandomForestRegressor.png" alt="Sigorta Gerçek vs Tahmin (RandomForest)" style="max-width:100%; width:560px; height:auto; border:1px solid #ddd; border-radius:6px;" />
-    <figcaption style="margin-top:8px; color:#666;">Sigorta - Gerçek vs Tahmin (RandomForest)</figcaption>
+
+  <figure>
+    <img src="photos/insurance_actual_vs_pred_RandomForestRegressor.png" alt="Sigorta Gerçek vs Tahmin (RandomForest)" style="max-width:560px; width:100%; border:1px solid #ddd; border-radius:6px;">
+    <figcaption style="color:#666;">Sigorta - Gerçek vs Tahmin (RandomForest)</figcaption>
   </figure>
-  <figure style="margin:0; text-align:center;">
-    <img src="photos/insurance_feature_importances_RandomForestRegressor.png" alt="Sigorta Özellik Önemleri (RandomForest)" style="max-width:100%; width:560px; height:auto; border:1px solid #ddd; border-radius:6px;" />
-    <figcaption style="margin-top:8px; color:#666;">Sigorta - Özellik Önemleri (RandomForest)</figcaption>
+
+  <figure>
+    <img src="photos/insurance_feature_importances_RandomForestRegressor.png" alt="Sigorta Özellik Önemleri (RandomForest)" style="max-width:560px; width:100%; border:1px solid #ddd; border-radius:6px;">
+    <figcaption style="color:#666;">Sigorta - Özellik Önemleri (RandomForest)</figcaption>
   </figure>
-  <figure style="margin:0; text-align:center;">
-    <img src="photos/insurance_actual_vs_pred_XGBRegressor.png" alt="Sigorta Gerçek vs Tahmin (XGBRegressor)" style="max-width:100%; width:560px; height:auto; border:1px solid #ddd; border-radius:6px;" />
-    <figcaption style="margin-top:8px; color:#666;">Sigorta - Gerçek vs Tahmin (XGBRegressor)</figcaption>
+
+  <figure>
+    <img src="photos/insurance_actual_vs_pred_XGBRegressor.png" alt="Sigorta Gerçek vs Tahmin (XGBRegressor)" style="max-width:560px; width:100%; border:1px solid #ddd; border-radius:6px;">
+    <figcaption style="color:#666;">Sigorta - Gerçek vs Tahmin (XGBRegressor)</figcaption>
   </figure>
-  <figure style="margin:0; text-align:center;">
-    <img src="photos/insurance_feature_importances_XGBRegressor.png" alt="Sigorta Özellik Önemleri (XGBRegressor)" style="max-width:100%; width:560px; height:auto; border:1px solid #ddd; border-radius:6px;" />
-    <figcaption style="margin-top:8px; color:#666;">Sigorta - Özellik Önemleri (XGBRegressor)</figcaption>
+
+  <figure>
+    <img src="photos/insurance_feature_importances_XGBRegressor.png" alt="Sigorta Özellik Önemleri (XGBRegressor)" style="max-width:560px; width:100%; border:1px solid #ddd; border-radius:6px;">
+    <figcaption style="color:#666;">Sigorta - Özellik Önemleri (XGBRegressor)</figcaption>
   </figure>
-  <figure style="margin:0; text-align:center;">
-    <img src="photos/segmentation_elbow.png" alt="Bölümleme Dirsek Yöntemi" style="max-width:100%; width:520px; height:auto; border:1px solid #ddd; border-radius:6px;" />
-    <figcaption style="margin-top:8px; color:#666;">Perakende Bölümleme - Dirsek Yöntemi</figcaption>
+
+  <figure>
+    <img src="photos/segmentation_elbow.png" alt="Bölümleme Dirsek Yöntemi" style="max-width:520px; width:100%; border:1px solid #ddd; border-radius:6px;">
+    <figcaption style="color:#666;">Perakende Bölümleme - Dirsek Yöntemi</figcaption>
   </figure>
-  <figure style="margin:0; text-align:center;">
-    <img src="photos/segmentation_pca_clusters.png" alt="Bölümleme PCA Küme Görselleştirme" style="max-width:100%; width:640px; height:auto; border:1px solid #ddd; border-radius:6px;" />
-    <figcaption style="margin-top:8px; color:#666;">Perakende Bölümleme - PCA Küme Görselleştirme</figcaption>
+
+  <figure>
+    <img src="photos/segmentation_pca_clusters.png" alt="Bölümleme PCA Küme Görselleştirme" style="max-width:640px; width:100%; border:1px solid #ddd; border-radius:6px;">
+    <figcaption style="color:#666;">Perakende Bölümleme - PCA Küme Görselleştirme</figcaption>
   </figure>
-  <figure style="margin:0; text-align:center;">
-    <img src="photos/fraud_roc_curves.png" alt="Sahtecilik ROC Eğrileri" style="max-width:100%; width:560px; height:auto; border:1px solid #ddd; border-radius:6px;" />
-    <figcaption style="margin-top:8px; color:#666;">Kredi Kartı Sahtecilik - ROC Eğrileri</figcaption>
+
+  <figure>
+    <img src="photos/fraud_roc_curves.png" alt="Sahtecilik ROC Eğrileri" style="max-width:560px; width:100%; border:1px solid #ddd; border-radius:6px;">
+    <figcaption style="color:#666;">Kredi Kartı Sahtecilik - ROC Eğrileri</figcaption>
   </figure>
-  <figure style="margin:0; text-align:center;">
-    <img src="photos/fraud_pr_curves.png" alt="Sahtecilik Precision-Recall Eğrileri" style="max-width:100%; width:560px; height:auto; border:1px solid #ddd; border-radius:6px;" />
-    <figcaption style="margin-top:8px; color:#666;">Kredi Kartı Sahtecilik - Precision-Recall Eğrileri</figcaption>
+
+  <figure>
+    <img src="photos/fraud_pr_curves.png" alt="Sahtecilik Precision-Recall Eğrileri" style="max-width:560px; width:100%; border:1px solid #ddd; border-radius:6px;">
+    <figcaption style="color:#666;">Kredi Kartı Sahtecilik - Precision-Recall Eğrileri</figcaption>
   </figure>
 </div>
