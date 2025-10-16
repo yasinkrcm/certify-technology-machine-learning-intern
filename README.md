@@ -1,44 +1,40 @@
-# Certify Technology Machine Learning Internship — Projects
+## Certify Technology Makine Öğrenimi Stajı — Projeler
 
-This repository contains complete, runnable solutions and outputs for the internship tasks. All plots are saved automatically into the `photos/` directory when you run the notebook.
+Bu depo, staj kapsamındaki görevlerin çalıştırılabilir çözümlerini ve çıktılarının üretilmesini sağlar. Ana çalışma dosyası `Compulsory_Internship_Tasks.ipynb` olup veriler `data/` klasöründe yer alır.
 
-## How to Run
-1. Open `Compulsory_Internship_Tasks.ipynb` in Jupyter/VS Code.
-2. Run all cells sequentially. Datasets are downloaded from public mirrors and cached under `data/`.
-3. Generated figures will appear under `photos/` and are referenced below.
+### Gereksinimler
+- Python 3.9+ (öneri: 3.10 veya üzeri)
+- Jupyter Notebook ya da VS Code (Jupyter eklentisiyle)
+- Temel kütüphaneler: `pandas`, `numpy`, `scikit-learn`, `matplotlib`, `seaborn`
 
-## Contents
+### Nasıl Çalıştırılır
+1. `Compulsory_Internship_Tasks.ipynb` dosyasını Jupyter veya VS Code ile açın.
+2. Hücreleri sırayla çalıştırın. Gerekli veri dosyaları `data/` altında hazırdır.
+3. Eğitim/Değerlendirme metrikleri hücre çıktılarında görünür; grafikler notebook içinde görüntülenir.
 
-### Level 1 — Coding Challenges
-- Linear Regression (California Housing): prints MSE and R²; scatter plot of Actual vs Predicted.
-- Decision Tree (Iris): accuracy, confusion matrix, and tree visualization.
-  - Images: `photos/iris_confusion_matrix.png`, `photos/iris_tree.png`
+### İçerik
 
-### Level 1 — Spam Email Classifier (Compulsory)
-- TF-IDF + MultinomialNB; metrics printed (accuracy, precision, recall, F1)
-  - Image: `photos/spam_confusion_matrix.png`
+#### Seviye 1 — Kodlama Alıştırmaları
+- Doğrusal Regresyon (California Housing): MSE ve R²; Gerçek vs Tahmin saçılım grafiği.
+- Karar Ağacı (Iris): doğruluk, karışıklık matrisi ve ağaç görselleştirmesi.
 
-### Level 2 — Insurance Charges Prediction
-- Models: Linear Regression, RandomForest, (optional) XGBoost
-- Metrics: MSE, R² (printed)
-- Visualizations:
-  - Correlation heatmap: `photos/insurance_corr_heatmap.png`
-  - Actual vs Predicted (top models): `photos/insurance_actual_vs_pred_<ModelName>.png`
-  - Feature importances: `photos/insurance_feature_importances_<ModelName>.png`
+#### Seviye 1 — Zorunlu: Spam E-posta Sınıflandırma
+- Yaklaşım: TF‑IDF + MultinomialNB (Naive Bayes)
+- Metrikler: doğruluk, precision, recall, F1
 
-### Level 2 — Retail Customer Segmentation (K-Means)
-- Elbow method then K-Means; PCA 2D clusters
-  - Images: `photos/segmentation_elbow.png`, `photos/segmentation_pca_clusters.png`
+#### Seviye 2 — Sigorta Ücreti Tahmini
+- Modeller: Linear Regression, RandomForest, (isteğe bağlı) XGBoost
+- Metrikler: MSE, R²
+- Görselleştirmeler: korelasyon ısı haritası, Gerçek vs Tahmin, özellik önemleri
 
-### Level 3 — Credit Card Fraud Detection
-- Models: Logistic Regression, RandomForest; robust preprocessing
-- Metrics: ROC-AUC and PR-AUC (printed)
-- Visualizations:
-  - ROC curves: `photos/fraud_roc_curves.png`
-  - Precision-Recall curves: `photos/fraud_pr_curves.png`
+#### Seviye 2 — Perakende Müşteri Bölümleme (K‑Means)
+- Yöntem: Dirsek yöntemi ile k belirleme, ardından K‑Means; PCA ile 2B küme görselleştirme
 
-## Notes
-- If a mirror is down, cells fall back to alternative sources (or generate a small synthetic dataset for segmentation) so the notebook remains runnable offline.
-- All images are regenerated on each run; feel free to delete `photos/` and re-run.
+#### Seviye 3 — Kredi Kartı Sahtecilik Tespiti
+- Modeller: Lojistik Regresyon, RandomForest (uygun ölçekleme/dengeleme ile)
+- Metrikler: ROC‑AUC, PR‑AUC
+- Görselleştirmeler: ROC ve Precision‑Recall eğrileri
 
-
+### Notlar
+- Veri setleri `data/` altında bulunduğu için çevrimdışı çalışma mümkündür.
+- Grafik ve ara çıktılar her yeniden çalıştırmada tekrar üretilebilir.
